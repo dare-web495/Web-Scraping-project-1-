@@ -87,7 +87,7 @@ def main():
     url = "https://books.toscrape.com/"
 
     final_book_dicts = scrape_all(url)
-    print(len(final_book_dicts))
+    print(final_book_dicts)
 
 
 if __name__ == "__main__":
